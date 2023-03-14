@@ -1,0 +1,20 @@
+.card{
+  /* background-color: red; */
+  width: 200px;
+  padding: 10px 50px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+.card-name{
+  margin-bottom: 0;
+  
+}
+.card-job{
+  margin-top: 5px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
