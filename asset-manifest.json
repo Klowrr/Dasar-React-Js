@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dasar-React-Js/static/css/main.647e153a.css",
+    "main.js": "/Dasar-React-Js/static/js/main.a7d3b060.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Dasar-React-Js/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Dasar-React-Js/index.html",
+    "main.647e153a.css.map": "/Dasar-React-Js/static/css/main.647e153a.css.map",
+    "main.a7d3b060.js.map": "/Dasar-React-Js/static/js/main.a7d3b060.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Dasar-React-Js/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.647e153a.css",
+    "static/js/main.a7d3b060.js"
+  ]
+}
