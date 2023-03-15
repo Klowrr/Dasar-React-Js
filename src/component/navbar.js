@@ -9,13 +9,13 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="/Home">Home</a></li>
           <li><a href="/About">About</a></li>
         </ul>
       </div>
       <Router>
       <Routes>
-          <Route path='/' element={<PageHome/>}/>
+          <Route path='/Home' element={<PageHome/>}/>
           <Route path='/About' element={<PageAbout/>}/>
         </Routes>
       </Router>
