@@ -1,0 +1,44 @@
+:root{
+  --primary-color:#68FE9A;
+  --secondary-color:#060606;
+  --third-color:#24272C;
+  --fourth-color:#FEFAF1;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: 50px;
+}
+.card{
+  background-color: var(--primary-color);
+  padding: 10px 50px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card tr td h3{
+  margin: 0;
+}
+
+.card-job{
+  margin-top: 5px;
+}
+.navbar{
+  background-color: var(--third-color);
+  padding-block: 20px;
+}
+.navbar ul{
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  margin-block: auto;
+}
+.navbar ul li{
+  margin-inline: 30px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: var(--fourth-color);
+}

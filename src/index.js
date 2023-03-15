@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import './App.css';
-import StateFullComponent from './container/StateFullComponent';
-import HelloComponent from './component/HelloComponent';
-import Cards from './component/cards';
-import MenampilkanData from './component/database';
+import './Style/App.css';
 import Tombol from './component/tombol';
+import NavBar from './component/navbar';
 
 const clicked =() => {
-  return alert("Thanksss!")
+  return alert("P bang")
 }
 
 
@@ -18,10 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
-      <Cards/>
-      <StateFullComponent/>
-      <HelloComponent/>
-      <MenampilkanData/>
+      <NavBar/>
       <Tombol clicked={clicked}/>
     </>
     
