@@ -9,8 +9,8 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <ul>
-          <li><a href="/Home">Home</a></li>
-          <li><a href="/About">About</a></li>
+          <li><a href="/Dasar-React-Js/Home">Home</a></li>
+          <li><a href="/Dasar-React-Js/About">About</a></li>
         </ul>
       </div>
       <Router basename="/Dasar-React-Js">
