@@ -15,7 +15,7 @@ const NavBar = () => {
       </div>
       <Router basename="/Dasar-React-Js">
         <Routes>
-          <Route exact path='/Dasar-React-Js' element={<PageHome/>}/>
+          <Route exact path='/Home' element={<PageHome/>}/>
           <Route path='/About' element={<PageAbout/>}/>
         </Routes>
       </Router>
