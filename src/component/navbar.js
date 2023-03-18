@@ -9,14 +9,14 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <ul>
-          <li><a href="/Dasar-React-Js/Home">Home</a></li>
-          <li><a href="/Dasar-React-Js/About">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#/About">About</a></li>
         </ul>
       </div>
-      <Router basename="/Dasar-React-Js">
+      <Router>
         <Routes>
-          <Route exact path='/Dasar-React-Js/Home' element={<PageHome/>}/>
-          <Route path='/Dasar-React-Js/About' element={<PageAbout/>}/>
+          <Route exact path='/' element={<PageHome/>}/>
+          <Route path='/About' element={<PageAbout/>}/>
         </Routes>
       </Router>
     </>
